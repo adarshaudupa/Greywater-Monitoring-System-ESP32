@@ -1,6 +1,6 @@
 # Greywater Monitoring System (ESP32)
 
-**Status:** Functional prototype (March 2024) | Grade: 9/10
+**Status:** Functional prototype (August 2025) | Grade: 9/10
 
 ## What It Does
 Real-time turbidity-based water recycling system for bathroom greywater.
