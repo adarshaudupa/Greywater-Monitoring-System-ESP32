@@ -26,10 +26,11 @@ Real-time turbidity-based water recycling system for bathroom greywater.
 ### 2. Turbidity Threshold Calibration
 **Problem:** Raw NTU readings varied with ambient light and water temperature.
 
-**Solution:** [Describe your calibration approach - even if manual]
+**Solution:** Implemented 3-sample averaging to reduce sensor noise and improve reading stability. Used visual water clarity as calibration reference. Set turbidity threshold through trial-and-error testing with actual greywater samples. Sensors shielded from ambient light using opaque housing to reduce noise.
 
 ## Planned Features (Not Implemented)
 **Scope was reduced due to time/budget constraints. Listed here for transparency:**
+Planned a stirring mechanism for improved accuracy, but deprioritized due to time constraints.
 - ~~Automated valve control~~ (had 5V relay, needed 12V for solenoid valves)
 - ~~pH sensing~~ (sensor module failed during testing)
 - ~~TDS measurement~~ (budget exhausted)
